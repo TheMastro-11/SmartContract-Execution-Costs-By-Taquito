@@ -9,12 +9,12 @@ The only two files modified were:
 - [index.html](src/main.ts) : Allow user to interact with a simple web interface.
 
 Once open the web page on http://localhost:1234 appears as: <br>
-![alt text](https://github.com/TheMastro-11/SmartContractTestScript-By-Taquito-/blob/master/webPage.png)
+![alt text](https://github.com/TheMastro-11/SmartContract-Execution-Costs-By-Taquito/blob/master/webPage.png)
 
 After pasting the contract address, this step is made at run-time as it can be generated multiple times otherwise you can add its address directly in the code, you can select to which type to refer.
 
 Then open the *console log* on your browser to see the results. <br>
-![alt text](https://github.com/TheMastro-11/SmartContractTestScript-By-Taquito-/blob/master/console-log.png)
+![alt text](https://github.com/TheMastro-11/SmartContract-Execution-Costs-By-Taquito/blob/master/console-log.png)
 
 
 ### Code Structure
