@@ -1,29 +1,38 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="./app.css" />
-    <title>Taquito Boilerplate App</title>
+    <title>Taquito Contract Execution costs</title>
   </head>
   <body>
-    <h1>Taquito Boilerplate App</h1>
+    <h1>Smart Contract  Execution costs (by Taquito)</h1>
     <div id="dialog">
-      <div id="header">Show Balance</div>
       <div id="content">
         <div id="balance-form">
           <input
             id="address-input"
             type="text"
             id="address"
-            placeholder="Enter wallet address"
+            placeholder="Enter contract address"
           />
-          <a id="show-balance-button" href="#">Show</a>
+          <br>
+          <a id="st-contract-button" href="#">SimpleTransfer</a>
+          <br>
+          <a id="htlc-contract-button" href="#">HashTimedLockedContract</a>
+          <br>
+          <a id="tt-contract-button" href="#">TokenTransfer</a>
+          <br>
+          <a id="ba-contract-button" href="#">BlindAuction</a>
+          <br>
+          <a id="cf-contract-button" href="#">CrowdFunding</a>
+          <br>
+          <a id="kt-contract-button" href="#">King of Tezos</a>
         </div>
+        <br>
         <div id="error-message" class="hide"></div>
-        <div id="balance-output" class="show"><span id="balance">0</span>ꜩ</div>
-      </div>
-    </div>
-    <div id="footer">
-      <img src="../assets/built-with-taquito.png" />
+        </div>
+        </div>
     </div>
     <script src="main.ts"></script>
   </body>
