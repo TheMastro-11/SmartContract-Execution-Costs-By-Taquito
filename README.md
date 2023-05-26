@@ -55,7 +55,7 @@ public initUI() {
   }
 ```
 4. Every contract function is structured in the same way:
-   1. Take contract data as entrpoints (saved into *methods*) from the explorer
+   1. Take contract data and entrypoints (saved into *methods*) from the explorer
    2. Call an entrypoint with parameters (if it has) and additonal info as *amount* (if is required) and *fee* (if you want to choose them otherwise they'll be chosen by explorer), `mutez : true` indicates the value is in mutez and not tez.
 ```
  private async simpleTransfer(receiver : string, contract : string) {
